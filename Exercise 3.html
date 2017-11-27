@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3</title>
+</head>
+<body>
+<article>
+    <section id="leftsection">
+
+    </section>
+<section>
+    <form id="form1" autocomplete="on">
+
+            <label for="name-input">Name</label><br>
+            <input type="text" id="name-input" required placeholder="First and Last Name"/><br><br>
+
+            <label for="email-input">Email</label><br>
+            <input type="email" id="email-input" required placeholder="Example: abc@xyz.com"/><br><br>
+
+        <label for="username-input">Create a username</label><br>
+        <input type="text" id="username-input" required placeholder="Username"/><br><br>
+
+        <label for="password-input">Create a password</label><br>
+        <input type="password" id="password-input" required/><br><br>
+
+        <label for="cnfpassword-input">Confirm your password</label><br>
+        <input type="password" id="cnfpassword-input" required/><br><br>
+
+        <label>Birthday</label>
+        <label class="month">
+
+            <select id= "month-input">
+                <option value="">Month</option>
+                <option  value="01">January</option>
+                <option value="02">February</option>
+                <option value="03" >March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12" >December</option>
+        </select>
+        </label>
+        <label>Day</label><input type="number" min="1" max="31" class="birthday" maxlength="2" id="bday"  placeholder="Day" required/>
+
+        <label>Year </label><input type="number" min="2000" max="2017" class="birthyear" maxlength="4" id="byear" placeholder="Year" required/>
+
+
+        <br><br>
+        <select id="gender">
+            <option value="select">i am..</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="others">Other</option>
+        </select>
+
+        <br><br>
+
+        <label for="tel-input">Mobile Phone</label><br>
+        <input type="tel" id="tel-input" required placeholder="phone number"/><br><br>
+                <input type="submit" value="Sign me up">
+    </form>
+</section>
+</article>
+</body>
+</html>

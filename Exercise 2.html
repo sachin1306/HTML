@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2</title>
+</head>
+<body>
+<section>
+<form id="form1" autocomplete="on">
+    <fieldset>
+        <legend>Customer Info:</legend>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" required placeholder="Enter Your Name"/><br>
+        <label for="tel-input">Telephone:</label>
+        <input type="tel" id="tel-input" required placeholder="Enter Your Telephone Number"/><br>
+        <label for="email-input">Email Address:</label>
+        <input type="email" id="email-input" required placeholder="Enter Your Email Address"/><br>
+    </fieldset>
+    <fieldset>
+        <legend>Books</legend>
+        <label for="bookname-input">Name:</label>
+        <input type="text" id="bookname-input"/><br>
+        <label  for="list-data">Quantity(maximum 5):</label>
+        <input id="list-data" type="text" list="newDatalist">
+        <datalist id="newDatalist">
+            <option value="1"></option>
+            <option  value="2"></option>
+            <option  value="3"></option>
+            <option  value="4"></option>
+            <option  value="5"></option>
+        </datalist>
+        <br>
+    </fieldset>
+    <input type="submit" value="Submit">
+    </form>
+</section>
+</body>
+</html>
+
+
