@@ -1,0 +1,92 @@
+header{
+    font-family:Georgia bold;
+    color: blue;
+    background-color: #cccccc;
+    font-size: 24px;
+    letter-spacing:1.6em;
+    word-spacing: 2em;
+    text-align: center;
+
+
+}
+#pdata10{
+    font-family:Georgia;
+    color: darkred;
+     font-size: 18px;
+     letter-spacing:1.4em;
+       text-align: left;
+
+}
+
+
+
+#pdata11{
+    font-family:Georgia;
+    color: darkred;
+    font-size: 15px;
+    text-align: left;
+
+ }
+
+#pdata20{
+    font-family:Georgia;
+    color: darkred;
+    font-size: 18px;
+
+    letter-spacing:1.4em;
+    text-align: left;
+
+}
+
+
+
+#pdata21{
+
+    width:10%;
+    float:left;
+    margin-right:3%;
+    margin-left:3%;
+
+
+ }
+
+
+#pdata22{
+    width:40%;
+    float:left;
+     margin-right:3%;
+    margin-left:3%;
+}
+
+
+#pdata30{
+    font-family:Georgia;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing:1.4em;
+    text-align: left;
+
+}
+
+
+
+#pdata31{
+
+    width:10%;
+    float:left;
+    margin-right:3%;
+    margin-left:3%;
+
+
+}
+
+
+#pdata32{
+    width:40%;
+    float:left;
+    margin-right:3%;
+    margin-left:3%;
+
+}
+
+
