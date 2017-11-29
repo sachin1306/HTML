@@ -1,0 +1,71 @@
+
+#container{
+    width: 10cm;
+    height: 10cm;
+    border: 1px solid black;
+
+}
+
+#imgid{
+    width:30px;
+    height:30px;
+    float:left;
+    clear: left;
+    margin: 10px;
+}
+ #univname{
+
+     float:left;
+          margin: 10px;
+ }
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    float: left;
+
+}
+
+.nav li {
+
+    font-size: 15px;
+    line-height: 10px;
+    height: 30px;
+    display: inline;
+
+}
+
+
+.halves{
+    width:40%;
+    float:left;
+    margin-right:3%;
+    margin-left:3%;
+}
+
+.halves last{
+    width:40%;
+    float:left;
+    margin-right:3%;
+    margin-left:3%;
+}
+.verticalLine {
+    float:left;
+    position:absolute;
+    left:10%;
+    top:20%;
+    bottom:55%;
+    border-left:1px solid black;
+}
+.last{
+    margin-right:0;
+}
+#footerof{
+     height:10px;
+     float: left;
+     text-align:center;
+    font-size: 13px;
+    margin-left: 5%;
+ }
